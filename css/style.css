@@ -1,3 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    background-color: #0E141A;
+    padding: 2% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icono-inicio{
+    width: 10vh;
+}
+
+.btn{
+    padding: 2vh;
+    width: 20vh;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.registro{
+    background-color: #E01A22;
+    color: #ffff;
+    border-color: #E01A22;
+}
+
+.registro:hover{
+    background-color: #ffff;
+    color: #E01A22;
+    border-color: #ffff;
+    cursor: pointer;
+}
+
+.inicio{
+    background-color: #0E141A;
+    color: #ffff;
+    border-color: #0E141A;
+}
+
+.inicio:hover{
+    background-color: #ffff;
+    color: #0E141A;
+    border-color: #ffff;
+    cursor: pointer;
+}
+
+.input-buscador{
+    background-color: #0E141A;
+    height: 5vh;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px  solid #385066;
+    border-radius: 2px;
+    padding-left: 1vh;
+}
+
+.input-buscador:focus {
+    color: #ffff;
+}
+
+.input-buscador::placeholder {
+    color: #385066;
+    font-weight: bold;
+}
+
+#btn-buscador{
+    height: 5vh;
+    width: 5vh;
+    align-self: center;
+    margin-left: -3vh;
+    margin-top: 1vh;
+    position: absolute;
+    color: #385066 !important;
+}
+
+.buscar{
+    width: 2vh;
+    background-color: #0E141A;
+    color: #ffff;
+    border: 1px #0E141A;
+}
+
+nav ul {
+    background-color: #11181F;
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 10%;
+}
+
+nav ul a {
+    font-size: 3vh;
+    text-decoration: none;
+    font-weight: bold;
+    color: #91A4B6;
+}
+
+nav ul a:hover {
+    color: #ECD503;
+}
+
 footer{
     display: flex;
     justify-content: space-between;
