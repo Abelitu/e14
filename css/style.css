@@ -104,6 +104,15 @@ nav ul a:hover {
     color: #ECD503;
 }
 
+.form_contacto{
+    
+   justify-content: center;
+   background-color:rgb(60, 70, 78);
+   max-width: max-content;
+    
+
+}
+
 footer{
     display: flex;
     justify-content: space-between;
