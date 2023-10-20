@@ -104,12 +104,24 @@ nav ul a:hover {
     color: #ECD503;
 }
 
-.form_contacto{
-    
-   justify-content: center;
-   background-color:rgb(60, 70, 78);
-   max-width: max-content;
-    
+
+.fcontacto{
+    min-width:50%;
+    margin: 10px;
+    background-color:antiquewhite;
+    display: inline-flex;
+    flex-direction: column;
+       
+}
+
+.mapa{
+    overflow: hidden;
+    position: relative;
+}
+
+.mapa iframe{
+    width: 100%;
+    height: 100%;
 
 }
 
