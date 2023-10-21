@@ -104,14 +104,31 @@ nav ul a:hover {
     color: #ECD503;
 }
 
+.caja_form{
+    display: flex;
+    background-color:lightblue;
+   
 
+}
 .fcontacto{
     min-width:50%;
-    margin: 10px;
+    padding: 20px;
     background-color:antiquewhite;
     display: inline-flex;
     flex-direction: column;
        
+}
+#submit_enviar{ 
+    background-color: azure;
+    margin: 10px;
+    width: 20%;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+
+#submit_enviar:hover{
+    background-color: hwb(180 60% 26%);
 }
 
 .mapa{
@@ -120,6 +137,7 @@ nav ul a:hover {
 }
 
 .mapa iframe{
+    
     width: 100%;
     height: 100%;
 
