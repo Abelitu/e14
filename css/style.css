@@ -116,8 +116,11 @@ nav ul a:hover {
     background-color:antiquewhite;
     display: inline-flex;
     flex-direction: column;
-       
+ }
+.fcontacto textarea{
+    overflow: hidden;
 }
+
 #submit_enviar{ 
     background-color: azure;
     margin: 10px;
