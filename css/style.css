@@ -103,7 +103,97 @@ nav ul a {
 nav ul a:hover {
     color: #ECD503;
 }
+/*******/
+section{
+    background-color: #c8d9eb;
+    padding: 0;
+    margin: 0;
+}
+.que_es :hover{
+    color: #0E141A;
+}
 
+
+.textonosotros{
+    display:flex ;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: x-large;
+    background-color: #385066;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.textonosotros p{
+    margin: 15px;
+}
+
+.nosotros{
+    margin: 0;
+    padding: 0;
+    background-color: #0E141A;
+}
+
+.slider-box{
+    margin: 0;
+    padding: 0;
+    width: 1280px;
+    height: auto;
+    
+}
+
+.slider-box ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite ease-in-out;
+}
+
+.slider-box li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+
+.textocancha{
+    position: absolute;
+    text-align: center;
+    padding: 0 250px;
+    top: 250px;
+    color: #ffffff;
+}
+
+.textocancha h2{
+    font-size: 45px;
+    margin-bottom: 35px;
+}
+
+.textocancha p{
+    font-size: x-large;
+    background-color: rgba(0, 0, 66, 10);
+}
+.slider-box img{
+    width: 70%;
+    height: 50%;
+    padding: 0;
+}
+
+@keyframes slide{
+    0% { margin-left: 0;}
+    20% { margin-left: 0;}
+
+    25% { margin-left: -100%;}
+    45% { margin-left: -100%;}
+
+    50% { margin-left: -200%;}
+    70% { margin-left: -200%;}
+
+    75% { margin-left: -300%;}
+    100% { margin-left: -300%;}
+}
+
+/****/
 .caja_form{
     display: flex;
     background-color:#e6ecf2;
@@ -123,6 +213,7 @@ nav ul a:hover {
     font-size:larger;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+  
  }
  .fcontacto label{
     color:#0E141A;
