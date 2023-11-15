@@ -103,7 +103,7 @@ nav ul a {
 nav ul a:hover {
     color: #ECD503;
 }
-#fondo{
+.fondo{
     background-image: url(../img/1137.jpg) ;
     background-size: 100%;
     
@@ -226,7 +226,7 @@ section{
 /****/
 .caja_form{
     display: flex;
-    background-color:#e6ecf2;
+    
    
 
 }
