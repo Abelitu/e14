@@ -97,12 +97,41 @@ nav ul a {
     font-size: 3vh;
     text-decoration: none;
     font-weight: bold;
-    color: #91A4B6;
+    color: #91a4b6;
 }
 
 nav ul a:hover {
     color: #ECD503;
 }
+#fondo{
+    background-image: url(../img/1137.jpg) ;
+    background-size: 100%;
+    
+    
+
+}
+.intro_inicio{
+    text-align: justify;
+    font-size: x-large;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    animation: intro 7s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+@keyframes intro {
+    0% {
+      transform:  translatex(800px);
+      opacity: 1;
+    }
+    60% {
+      opacity: 0.5;
+    }
+    100% {
+      transform:  translatex(-1000px);
+      opacity: 0;
+    }
+  }
+
 /*******/
 
 section{
