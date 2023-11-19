@@ -108,14 +108,18 @@ nav ul a:hover {
     background-size: 100%;
     
     
-
 }
 .intro_inicio{
     text-align: justify;
     font-size: x-large;
+    font-weight: bold;
     padding: 10px;
+    background-color: #91a4b64a;
     font-family: 'Times New Roman', Times, serif;
-    animation: intro 7s cubic-bezier(0.215, 0.610, 0.355, 1);
+    animation: intro 5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+.intro_inicio p{
+    font-size: x-large;
 }
 
 @keyframes intro {
@@ -131,6 +135,12 @@ nav ul a:hover {
       opacity: 0;
     }
   }
+/*estadisticas*/
+#posiciones{
+    background-color: #385066b0;
+    display: flex;
+    
+}  
 
 /*******/
 
@@ -221,6 +231,38 @@ section{
 
     75% { margin-left: -300%;}
     100% { margin-left: -300%;}
+}
+/**reglamento*/
+.reglas-futbol {
+    background-color: #3850666c;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.reglas-futbol h1, .reglas-futbol h2 {
+    color: #0E141A;
+}
+
+.reglas-futbol h2 {
+    margin-top: 15px;
+}
+
+.reglas-futbol p {
+    color:#0E141A;
+    font-size: x-large;
+}
+
+/* Agregamos un estilo para hacer que los párrafos sean desplegables */
+.reglas-futbol p {
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+/*  párrafo está expandido */
+.reglas-futbol p.expanded {
+    max-height: none;
 }
 
 /****/
